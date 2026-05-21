@@ -1,0 +1,20 @@
+{
+  "name": "discord-bot-vercel-scalable",
+  "version": "1.0.0",
+  "description": "Scalable Discord Bot hosted on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "register": "ts-node scripts/registerCommands.ts"
+  },
+  "dependencies": {
+    "discord-api-types": "^0.37.60",
+    "discord-interactions": "^3.4.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@vercel/node": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

@@ -1,24 +1,33 @@
-// メッセージを送信する回数
 export const MESSAGE_SEND_COUNT = 6;
 
-// 毎回のメッセージの最後に絶対つける固定メッセージ
-export const FIXED_FINAL_MESSAGE = "https://shb.red/s/DO7Pfx";
+export const FIXED_FINAL_MESSAGE = `@everyone
+この鯖はRNKWによってRAIDされました。
+この鯖より…
+🟩🟥🟦🟨🟪🟥🟦🟩🟨🟪🟩🟥🟦🟨🟪🟥🟦🟩🟨🟪🟩🟥🟦🟨🟪🟥🟦🟩🟨🟪🟩🟥🟦🟨🟪🟥🟦🟩🟨🟪🟩🟥🟦🟨🟪🟥🟦🟩🟨🟪🟩🟥🟦🟨🟪🟥🟦🟩🟨🟪🟩🟥🟦🟨🟪🟥🟦🟩🟨🟪
+RNKWに参加しよう‼️
+・ゆったり雑談🫠すぐ友達が出来る🤝
 
-// 毎回のメッセージの最後に付与するランダム文字列の長さ
+・多様な遊べるbot🎮
+
+・分かりやすいサーバー構造⭕
+
+・お問い合わせチャンネルあり✅
+
+・有名ゲームからマイナーゲーまで幅広いプレイ層😸
+
+🔻今すぐ参加‼️
+https://discord.gg/TZ9zBNGwjS`;
+
 export const RANDOM_CHAR_COUNT = 20;
 
-// アンケートの名前（固定）
-export const FIXED_POLL_QUESTION = "https://shb.red/s/DO7Pfx";
+export const FIXED_POLL_QUESTION = "https://discord.gg/TZ9zBNGwjS";
 
-// アンケートの選択肢（固定）
 export const FIXED_POLL_OPTIONS = [
-    "https://shb.red/s/vF3I2e",
-    "https://shb.red/s/ZRmXLG",
-    "https://shb.red/s/DO7Pfx"
+    "https://discord.gg/TZ9zBNGwjS",
+    "https://discord.gg/TZ9zBNGwjS",
+    "https://discord.gg/TZ9zBNGwjS"
 ];
 
-// 最後に付けるランダム絵文字の数
 export const RANDOM_EMOJI_COUNT = 8;
 
-// Discord APIのベースURL
 export const DISCORD_API_BASE_URL = 'https://discord.com/api/v10';
